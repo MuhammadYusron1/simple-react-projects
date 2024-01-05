@@ -1,0 +1,322 @@
+export const PRODUCTS = [
+    {
+      id: 0,
+      category: "Vegetables",
+      name: "Pineapple",
+      city: "Loretto",
+      price: "$20",
+      currentBalance: 13
+    },
+    {
+      id: 1,
+      category: "Fruits",
+      name: "Apple",
+      city: "Coleville",
+      price: "$19",
+      currentBalance: 0
+    },
+    {
+      id: 2,
+      category: "Fruits",
+      name: "Pineapple",
+      city: "Barclay",
+      price: "$26",
+      currentBalance: 3
+    },
+    {
+      id: 3,
+      category: "Vegetables",
+      name: "Watermelon",
+      city: "Hessville",
+      price: "$20",
+      currentBalance: 8
+    },
+    {
+      id: 4,
+      category: "Fruits",
+      name: "Blackberry",
+      city: "Valle",
+      price: "$22",
+      currentBalance: 19
+    },
+    {
+      id: 5,
+      category: "Vegetables",
+      name: "Watermelon",
+      city: "Ironton",
+      price: "$21",
+      currentBalance: 11
+    },
+    {
+      id: 6,
+      category: "Vegetables",
+      name: "Apple",
+      city: "Chestnut",
+      price: "$27",
+      currentBalance: 0
+    },
+    {
+      id: 7,
+      category: "Vegetables",
+      name: "Pineapple",
+      city: "Dowling",
+      price: "$19",
+      currentBalance: 6
+    },
+    {
+      id: 8,
+      category: "Vegetables",
+      name: "Pineapple",
+      city: "Bynum",
+      price: "$17",
+      currentBalance: 11
+    },
+    {
+      id: 9,
+      category: "Vegetables",
+      name: "Blackberry",
+      city: "Takilma",
+      price: "$22",
+      currentBalance: 3
+    },
+    {
+      id: 10,
+      category: "Fruits",
+      name: "Pineapple",
+      city: "Floris",
+      price: "$28",
+      currentBalance: 15
+    },
+    {
+      id: 11,
+      category: "Vegetables",
+      name: "Dragonfruit",
+      city: "Bethany",
+      price: "$26",
+      currentBalance: 11
+    },
+    {
+      id: 12,
+      category: "Fruits",
+      name: "Apple",
+      city: "Savage",
+      price: "$19",
+      currentBalance: 15
+    },
+    {
+      id: 13,
+      category: "Vegetables",
+      name: "Starfruit",
+      city: "Boling",
+      price: "$6",
+      currentBalance: 0
+    },
+    {
+      id: 14,
+      category: "Vegetables",
+      name: "Watermelon",
+      city: "Springhill",
+      price: "$8",
+      currentBalance: 8
+    },
+    {
+      id: 15,
+      category: "Vegetables",
+      name: "Pumpkin",
+      city: "Brewster",
+      price: "$30",
+      currentBalance: 8
+    },
+    {
+      id: 16,
+      category: "Vegetables",
+      name: "Blackberry",
+      city: "Curtice",
+      price: "$22",
+      currentBalance: 13
+    },
+    {
+      id: 17,
+      category: "Vegetables",
+      name: "Watermelon",
+      city: "Concho",
+      price: "$22",
+      currentBalance: 14
+    },
+    {
+      id: 18,
+      category: "Vegetables",
+      name: "Tangerine",
+      city: "Fairhaven",
+      price: "$5",
+      currentBalance: 4
+    },
+    {
+      id: 19,
+      category: "Fruits",
+      name: "Dragonfruit",
+      city: "Calvary",
+      price: "$5",
+      currentBalance: 0
+    },
+    {
+      id: 20,
+      category: "Vegetables",
+      name: "Tangerine",
+      city: "Coral",
+      price: "$23",
+      currentBalance: 4
+    },
+    {
+      id: 21,
+      category: "Fruits",
+      name: "Blackberry",
+      city: "Boomer",
+      price: "$5",
+      currentBalance: 15
+    },
+    {
+      id: 22,
+      category: "Fruits",
+      name: "Dragonfruit",
+      city: "Aurora",
+      price: "$27",
+      currentBalance: 8
+    },
+    {
+      id: 23,
+      category: "Vegetables",
+      name: "Pineapple",
+      city: "Libertytown",
+      price: "$5",
+      currentBalance: 0
+    },
+    {
+      id: 24,
+      category: "Vegetables",
+      name: "Tangerine",
+      city: "Grahamtown",
+      price: "$27",
+      currentBalance: 15
+    },
+    {
+      id: 25,
+      category: "Fruits",
+      name: "Dragonfruit",
+      city: "Crenshaw",
+      price: "$4",
+      currentBalance: 8
+    },
+    {
+      id: 26,
+      category: "Fruits",
+      name: "Jackfruit",
+      city: "Martell",
+      price: "$15",
+      currentBalance: 0
+    },
+    {
+      id: 27,
+      category: "Fruits",
+      name: "Pumpkin",
+      city: "Homestead",
+      price: "$13",
+      currentBalance: 18
+    },
+    {
+      id: 28,
+      category: "Fruits",
+      name: "Pineapple",
+      city: "Nicut",
+      price: "$8",
+      currentBalance: 8
+    },
+    {
+      id: 29,
+      category: "Fruits",
+      name: "Dragonfruit",
+      city: "Goochland",
+      price: "$18",
+      currentBalance: 10
+    },
+    {
+      id: 30,
+      category: "Vegetables",
+      name: "Tangerine",
+      city: "Maybell",
+      price: "$29",
+      currentBalance: 17
+    },
+    {
+      id: 31,
+      category: "Fruits",
+      name: "Tangerine",
+      city: "Finderne",
+      price: "$26",
+      currentBalance: 17
+    },
+    {
+      id: 32,
+      category: "Fruits",
+      name: "Dragonfruit",
+      city: "Teasdale",
+      price: "$3",
+      currentBalance: 19
+    },
+    {
+      id: 33,
+      category: "Vegetables",
+      name: "Watermelon",
+      city: "Nogal",
+      price: "$16",
+      currentBalance: 0
+    },
+    {
+      id: 34,
+      category: "Vegetables",
+      name: "Apple",
+      city: "Duryea",
+      price: "$3",
+      currentBalance: 1
+    },
+    {
+      id: 35,
+      category: "Fruits",
+      name: "Jackfruit",
+      city: "Carrsville",
+      price: "$27",
+      currentBalance: 12
+    },
+    {
+      id: 36,
+      category: "Vegetables",
+      name: "Apple",
+      city: "Islandia",
+      price: "$13",
+      currentBalance: 0
+    },
+    {
+      id: 37,
+      category: "Fruits",
+      name: "Apple",
+      city: "Bend",
+      price: "$21",
+      currentBalance: 4
+    },
+    {
+      id: 38,
+      category: "Vegetables",
+      name: "Pumpkin",
+      city: "Bawcomville",
+      price: "$30",
+      currentBalance: 0
+    },
+    {
+      id: 39,
+      category: "Vegetables",
+      name: "Jackfruit",
+      city: "Nash",
+      price: "$20",
+      currentBalance: 8
+    }
+]
