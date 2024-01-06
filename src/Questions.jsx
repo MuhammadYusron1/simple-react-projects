@@ -15,7 +15,7 @@ function Question({ questionTitle, questionText}) {
 		<article className="px-6 pt-6 pb-0 mb-8 bg-white rounded-lg shadow-level1">
 			<div className="flex items-center justify-between pb-4 capitalize">
 				<h4 className="mb-0 tracking-[.25rem] text-[var(--color-gray-2)] text-base">{questionTitle}</h4>
-				<button className="text-[1.5rem] bg-transparent border-transparent text-[#c59d5f] transition-all duration-300 ease-linear">
+				<button className="text-[1.5rem] bg-transparent border-transparent text-[#c59d5f] transition-all duration-300 ease-linear hover:rotate-90">
 					<span onClick={() => {setActive({...active, questionOpen: !active.questionOpen}); console.log(active);}} className={active.questionOpen ? "inline" : "hidden"}><i className="uil uil-plus-square"></i></span>
 					<span onClick={() => {setActive({...active, questionOpen: !active.questionClose}); console.log(active);}} className={active.questionOpen ? "hidden" : "inline"}><i className="uil uil-minus-square"></i></span>
 				</button>
