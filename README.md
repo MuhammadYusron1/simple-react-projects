@@ -1,10 +1,10 @@
-# Student List App
+# Simple React Projects
 
-This is the student list application that perform CRUD operations using MERN stack.
+This is the collection of React projects.
 
 ## Usage
 
-Rename the .envexample to .env and add your MONGO_URI
+Just install and run
 
 ### Install dependencies
 
